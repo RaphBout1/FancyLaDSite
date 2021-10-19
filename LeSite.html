@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Fancy_LaD</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id="droite">
+            <div class="icone" id="search">
+                <img src="images/search.png" alt="search">
+                <h2>Search</h2>
+            </div>
+            <div class="icone" id="shop">
+                <img src="images/shop.png" alt="shop">
+                <h2>Basket</h2>
+            </div>
+        </div>
+
+        <div id="gauche">
+            <div class="icone" id="team">
+                <img src="images/team.png" alt="team">
+                <h2>Team</h2>
+            </div>
+            <div class="icone" id="podcast" onclick="fonc()">
+                <img src="images/podcast.png" alt="podcast">
+                <h2>Podcast</h2>
+            </div>
+
+            <div class="icone" id="video">
+                <img src="images/monitor-icon.png" alt="video">
+                <h2>Video</h2>
+            </div>
+        </div>
+
+    </nav>
+
+    <article id="arPodcast">
+        <div id="entete">
+            <img src="images/ptit_logo.png" alt="logo fenetre">
+            <p>Fancy Lad Podcast </p>
+            <div id="butonclose" onclick="fonc()"></div>
+        </div>
+        <div id="audacity">
+            <p>Nick “Big” Murray and Tom Tweak of Fancy Lad Skateboards discuss all things skateboarding, as well as all
+                things not skateboarding. </p>
+
+        </div>
+        <div id="fenetreEcoute" class="ecoute">
+            <div class="audio">
+                <audio src="images/audio.mp3" id="audio1" ontimeupdate="avance('#audio1','#image1')"></audio>
+                <div class="infoEcoute">
+                    <p class="titreEcoute">Hangin’ with Mr. Cooper </p>
+                    <div class="datePlay">
+                        <p>April 27, 2021</p>
+                        <div class="playbuton" onclick="ecoute('#audio1')">
+                            <img src="images/icon_play.png" alt="iconPlay">
+                            <p>Play</p>
+                        </div>
+
+
+
+                    </div>
+                    <p class="descrip">Bigzo and Tom Tweak are BACK in
+                        the Fancy Lad Podcast studio and
+                        joined by dear friend, and Krux
+                        team rider (featured on the
+                        webpage) Cooper Winterson to
+                        discuss everything Coop hates
+                        about skateboarding. Plus, Big joins
+                        the Fancy Lad Podcast Fan club.
+                        All this!
+                    </p>
+                    <p class="timer">1 hr 42 min
+                    </p>
+                </div>
+                <div class="boite" id="b1">
+                    <div class="imagequibouge" id="image1">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="fenetreEcoute2" class="ecoute">
+            <div class="audio">
+                <audio src="images/audio2.mp3" id="audio2" ontimeupdate="avance('#audio2','#image2')"></audio>
+                <div class="infoEcoute">
+                    <p class="titreEcoute">DuffMan Can't Leave, Oh NO!
+                    </p>
+                    <div class="datePlay">
+                        <p>April 20, 2021
+                        </p>
+                        <div class="playbuton" onclick="ecoute('#audio2')">
+                            <img src="images/icon_play.png" alt="iconPlay">
+                            <p>Play</p>
+                        </div>
+
+
+                    </div>
+                    <p class="descrip">Bigzo and Tom Tweak are BACK in
+                        the Fancy Lad Podcast to once
+                        again talk about Tom Penny/Petty.
+                        Then, Bigzo and Tom hold
+                        skateboarding LEGEND Corey
+                        Duffel hostage to discuss music in
+                        video parts, the Simpsons, and Hot
+                        Topic. All this!?
+
+                    </p>
+                    <p class="timer">2 hr 25 min
+
+                    </p>
+                </div>
+                <div class="boite" id="b2">
+                    <div class="imagequibouge" id="image2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fenetreEcoute3" class="ecoute">
+            <div class="audio">
+                <audio src="images/audio3.mp3" id="audio3" ontimeupdate="avance('#audio3','#image3')"></audio>
+                <div class="infoEcoute">
+                    <p class="titreEcoute">ZachDraft II
+                    </p>
+                    <div class="datePlay">
+                        <p>April 13, 2021
+                        </p>
+                        <div class="playbuton" onclick="ecoute('#audio3')">
+                            <img src="images/icon_play.png" alt="iconPlay">
+                            <p>Play</p>
+                        </div>
+
+
+                    </div>
+                    <p class="descrip">Bigzo and TomTweak are BACK in
+                        the Fancy Lad Podcast studio, but
+                        not for long. Bigzo sets off on a
+                        mission to find a sweaty and
+                        deranged fan to talk to, but, will this
+                        come at a cost? Can Big and Tom
+                        stand listening to a sweaty and
+                        deranged fan? Will they tolerate
+                        their buffoonery? Find out now.
+
+                    </p>
+                    <p class="timer">1 hr 16 min
+
+                    </p>
+                </div>
+                <div class="boite" id="b3">
+                    <div class="imagequibouge" id="image3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <script src="js.js"></script>
+
+
+
+
+</body>
+
+</html>
