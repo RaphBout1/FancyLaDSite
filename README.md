@@ -1,5 +1,5 @@
 # FancyLaDSite
-## Site réaliser pour montrer en condition réel le design de site d'un étudiant à l'école d'art Estienne à Paris;
+## Site réalisé pour montrer en condition réelle le design de site d'un étudiant à l'école d'art Estienne à Paris;
 *Visuel demandé par l'étudiant:*
 
 ![Capture d’écran 2021-10-20 002127](https://user-images.githubusercontent.com/91502674/137999963-c8d51a5a-ae1b-4d92-9e56-402393df446c.png)
